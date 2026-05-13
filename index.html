@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강민준 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <div class="logo">강민준 Portfolio</div>
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>  
+
+    <header class="hero">
+    <div class="hero-text">
+        <p class="small-title">MULTIMEDIA STUDENT</p>   
+        <h1>멀티미디어 모션미디어 전공 강민준입니다.</h1>
+        <p class="hero-description">영상제작, 3D 애니메이션 제작 작업을 합니다. 포트폴리오 확인하시고 편하게 의뢰해 주세요</p>
+        
+        <div class="hero-buttons">
+           <a href="#">포트폴리오 보기</a>
+           <a href="#">의뢰하기</a>
+        </div>
+    </div>
+    </header>
+
+    <section id="about"> 
+        <h2>About Me</h2>
+        <p>저는 멀티미디어 모션미디어 전공 학생으로, 영상제작과 3D 애니메이션 제작에 관심을 가지고 있습니다. 다양한 프로젝트를 통해 기술을 향상시키고 있으며, 창의적인 아이디어를 실현하는 데에 열정을 가지고 있습니다.
+
+        </p>
+
+        <div>
+            <span>Maya</span>
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
+        </div>
+    </section>
+
+    <section id="services"> 
+        <h2>Services</h2>
+        <ul>
+            <li>광고, 홍보 영상, 뮤직비디오 제작</li>
+            <li>캐릭터 애니메이션, 제품 시각화, 3D 애니메이션 제작</li>
+            <li>영상 편집</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        
+        <div class="portfolio-grid">
+            <div class="card">
+                <div>3D ANIMATION</div>
+                <h3>3D 애니메이션</h3>
+                <p>캐릭터 애니메이션과 제품 시각화를 위한 3D 애니메이션 제작</p>
+                <a href="#">자세히보기</a>
+            </div>
+            
+            <div class="card">
+                <div>VIDEO</div>
+                <h3>영상 제작</h3>
+                <p>학교 행사와 홍보 프로잭트를 위한 영상 제작 작업</p>
+                <a href="#">자세히보기</a>
+            </div>
+            
+            <div class="card">
+                <div>SNS</div>
+                <h3>SNS 영상 제작</h3>
+                <p>소셜 미디어를 위한 짧고 강력한 영상 제작</p>
+                <a href="#">자세히보기</a>
+
+
+            </div>
+
+            <div>
+                <div>3D Modeling</div>
+                <h3>3D 모델링</h3>
+                <p>3D 애니메이션과 제품 시각화를 위한 3D 모델링 작업</p>
+                <a href="#">자세히보기</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+       
+        <form>
+            <label>이름</label>
+            <input type="text" name="name" placeholder="이름을 입력하세요.">
+
+            <label>이메일</label>
+            <input type="email" name="email" placeholder="이메일을 입력하세요.">
+        
+            <label>의뢰 종류</label>
+            <select name="type">
+                <option value="video">영상 제작</option>
+                <option value="animation">3D 애니메이션</option>
+                <option value="sns">SNS 영상 제작</option>
+                <option value="modeling">3D 모델링</option>
+            </select>
+       
+            <label>의뢰 내용</label>
+            <textarea name="message" placeholder="의뢰 내용을 입력하세요." rows="5">
+            </textarea>
+            <input type="submit" value="보내기">
+        </form>
+    
+    </section>
+
+    <footer>
+        <p> 2026 강민준 Portfolio. All rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
